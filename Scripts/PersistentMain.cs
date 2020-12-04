@@ -45,7 +45,7 @@ public class PersistentMain : MonoBehaviour
             anti.antiParticleTexts[i].text = $"Cost {Methods.NotationMethodBD(data.antiParticleCosts[i], y: "F2")} AnTiMaTtEr";
         }
 
-        anti.antimatterText.text = $"{Methods.NotationMethodBD(data.antimatter, y: "F2")} GAMEING ANTIMATTER";
+        anti.antimatterText.text = $"{Methods.NotationMethodBD(data.antimatter, y: "F2")} /*Fuck Gameing*/ ANTIMATTER";
         anti.antimatterMultiText.text = $"Your AnTiMaTtEr is multipling your Matter by {Methods.NotationMethodBD(data.antimatterMulti, y: "F2")}x! Swag!";
         anti.antimatterGainText.text = $"GAIN +{Methods.NotationMethodBD((data.Matter / 1e8), y: "F2")} GAMEING ANTIMATTER";
         anti.apocalypseButton.SetActive(false);
